@@ -114,7 +114,7 @@ struct DetailsView: View {
                         .padding([.top], 20)
                         .padding([.leading, .trailing], 12)
                     
-                    let environmentalScores = fetcherScores.scores.filter({ score in score.topic == "Environmental" })
+                    let environmentalScores = fetcherScores.scores.filter({ score in score.topic == "Environment" })
                     
                     if (environmentalScores.isEmpty) {
                         Text("There are no reports on this topic, please help us by suggesting a score above.")
